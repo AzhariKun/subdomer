@@ -32,10 +32,11 @@ banner = """
    _______  __/ /_  ____/ /___  ____ ___  ___  _____
   / ___/ / / / __ \/ __  / __ \/ __ `__ \/ _ \/ ___/
  (__  ) /_/ / /_/ / /_/ / /_/ / / / / / /  __/ /    
-/____/\__,_/_.___/\__,_/\____/_/ /_/ /_/\___/_/     
+/____/\__,_/_.___/\__,_/\____/_/ /_/ /_/\___/_/ 
+
 Subdomain Scanner | {}https://github.com/AzhariKun/subdomer
 
-""".format(Fore.WHITE, Fore.YELLOW)
+""".format(Fore.YELLOW)
 print banner
 target = open(raw_input(Fore.WHITE+'input list:~# '),'r').read().replace('http://', '').replace('https://', '').splitlines()
 Thread = raw_input(Fore.WHITE+'Thread :~# ')
