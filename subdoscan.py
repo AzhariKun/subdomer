@@ -15,7 +15,7 @@ def subdoscan(target):
   try:
     grab = requests.get('https://sonar.omnisint.io/subdomains/'+target)
     if 'null' in grab.text:
-      print('{}[FAILED] {}'.format(Fore.RED, Fore.YELLOW+target))
+      print "{}[FAILED] {}".format(Fore.RED, Fore.YELLOW+target))
     else:
       result = json.loads(grab.text)
       print "{}[GRABBED] {} | Total {} Subdomains".format(Fore.YELLOW, str(target), len(result))
