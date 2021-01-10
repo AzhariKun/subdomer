@@ -33,8 +33,7 @@ banner = """
   / ___/ / / / __ \/ __  / __ \/ __ `__ \/ _ \/ ___/
  (__  ) /_/ / /_/ / /_/ / /_/ / / / / / /  __/ /    
 /____/\__,_/_.___/\__,_/\____/_/ /_/ /_/\___/_/     
-\t{}Subdomain Scanner 
-\t{}https://github.com/AzhariKun/subdomer
+Subdomain Scanner | https://github.com/AzhariKun/subdomer
 
 """.format(Fore.WHITE, Fore.YELLOW)
 print banner
