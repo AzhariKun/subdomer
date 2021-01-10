@@ -7,7 +7,6 @@ import os
 import json
 import requests
 from colorama import Fore, init
-from multiprocessing.dummy import Pool
 from multiprocessing.dummy import Pool as ThreadPool
 init(autoreset=True)
 
