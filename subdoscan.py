@@ -13,7 +13,7 @@ init(autoreset=True)
 
 def subdoscan(target):
   try:
-    grab = requests.get('https://sonar.omnisint.io/subdomains/'+target)
+    grab = requests.get('https://tatsumi-crew.net/subdomain.php?domain='+target)
     if 'null' in grab.text:
       print "{}[FAILED] {}".format(Fore.RED, Fore.YELLOW+target)
     else:
